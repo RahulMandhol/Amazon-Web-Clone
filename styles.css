@@ -1,0 +1,396 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.mynav{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+     
+}
+.mycontainer{
+    background-color: #0f1111;
+    justify-content:space-evenly;
+    align-items: center;  
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    padding-left: 1px;
+    margin: 0;  
+    padding-right: 0px;  
+}
+.mylogo:hover{
+    border: transparent;  
+    outline: 2px solid rgb(255, 255, 255);  
+    cursor: pointer  
+    
+}
+.mylogo img {
+    align-items:center;
+    display: flex;
+    margin-left: 2px; 
+    padding-left: 4px;
+    padding-top: 4px;
+    
+}
+.mynavcontent {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Removes default padding from list items */
+    margin: 0; /* Removes default margin from list items */
+
+}
+
+.mybox1:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+      
+}
+.mydropdown1:hover{
+    cursor: pointer
+}
+
+.mysubbox1{
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    color: #cccccc;
+
+}
+.mysubbox2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    
+}
+.mysubbox2 p {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+    
+}
+.mybox2{
+    color: #0f1111;
+    display: flex;
+    height: 38px;
+    padding: 1px;
+  
+}
+.mybox2:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    
+}
+.mydropdown1{
+    background-color: #ffffff;
+    padding: 2px;
+    border-top-left-radius: 5px;                          /*Setting ediges of image topleft*/
+    border-bottom-left-radius: 5px;                       /*Setting ediges of image topbottom*/
+    
+}
+.myplaceholder{
+    width: 500px;
+    border: 0;
+    padding-left: 4px;
+    font-size: 13px;
+    background-color: #ffffff;
+       
+}
+.mysearchicon:hover{
+    cursor: pointer
+}
+.mysearchicon{
+    background-color: rgb(225, 167, 59) ;
+    border-top-right-radius: 5px;                          /*Setting ediges of image topleft*/
+    border-bottom-right-radius: 5px;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+.mybox3:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+
+}
+.mydropdown2{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.mybox3 select {
+    background-color:transparent ;
+    border: none;
+    color: #ffffff;
+
+}
+.mybox3 select option {
+    font-size: 90px;
+    padding: 0;   
+}    
+.mydropdown2 img{
+    width: 25px; 
+
+}
+.mydropdown3 select {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 0px;
+    justify-content: center;
+
+}
+.mydropdown3 p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #ffffff;
+    padding: 4px; 
+    /* wjy did hello and account alinged when padding was applied to the <p> tag not the dropdown3 class? why justify content did allign both item to center? */
+}
+.mydropdown3 option{
+    padding: 0px;
+    border: 0;
+      
+}
+.mydropdown3:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+
+}
+
+.mybox4{
+    margin-top: 5px;
+}
+.mybox4 .p1 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #ffffff;
+}
+.mybox4 .p2 {
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+
+.mybox4:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+
+}
+.mybox5{
+    display: flex;
+    padding-top: 19px;
+}
+
+.mybox5 p {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.mybox5:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer   
+}
+/* on hover the outlines are not consistant they are adjusting to the height of the content and stuck to the content how can i add padding in it ? */
+/* End of main nav */
+
+.mybottombox1{
+    background-color: #283546;
+    height: 40px;
+    align-items: center;  
+    display: flex;
+    padding-left: 20px;   
+    color: #ffffff;
+        
+    
+}
+.mysubbottombox1{
+    display: flex;
+    margin-left: 17px;
+    padding-right: 15px;
+    margin-right: 3px;
+    gap: 5px;
+    padding-top: 2px;
+   
+}
+.mysubbottombox1 p {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+.mysubbottombox1:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+
+.mybottombox2{     
+    display: flex;
+    padding-left: 15px;
+    
+    text-decoration: none;
+    list-style-type: none;   
+    padding: 0;
+    gap: 20px ;
+    font-weight: 500;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.mybottomlisthover1:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover2:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover3:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover4:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover5:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover6:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover7:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover8:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover9:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover10:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover11:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover12:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.mybottomlisthover13:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer
+}
+.carousel-control-prev{
+
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 0px;
+    margin: 0px;
+    bottom: 100px;
+    
+    
+    
+}
+
+.carousel-control-next {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 0px;
+    margin: 0px;
+    bottom: 100px;
+    
+}
+.gridbox-contain{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    top: -300px;
+    
+    
+    
+
+}
+.mygridbox {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.mygridbox h2{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mygridbox p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  
+.image-grid {
+    background-color: #ffffff;
+    margin: 3px;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);       
+    gap: 20px;
+   
+}
+  
+.grid-item {
+    text-align: center;
+    
+}
+.card-footer {
+    background-color: #283546;
+
+}
+.card-footer img{
+  justify-content: center;
+}
+.btn{
+    background-color: transparent;
+    color: #ffffff;
+}
+.card-header{
+    background-color: #283546e7;
+    
+
+}
+.card-body{
+    padding: 0px;
+}
+
+
+
+
+
+    
+ 
